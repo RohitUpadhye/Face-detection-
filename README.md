@@ -1,18 +1,36 @@
-**AWS Infrastructure Automation using Face** 
+# 🤖 AWS Infrastructure Automation using Face Detection 😊
 
-1. Create a code which detect ➡️ the known face 😊.
-2. Create a terraform script for AWS infrastructure 📶🖥️.
-2. Depending upon the result ,if face is correctly detected infra code will be activated.
-4. Creation of infrastructure can view in AWS☁️console☁️
+This project uses **face recognition** to trigger **AWS infrastructure creation** via **Terraform**.  
+If your face is detected ✅, the infrastructure is deployed 🚀 and visible in the **AWS Console** ☁️📶🖥️
 
-☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+---
 
-**Terraform commands**
-1. *terraform init*
-2. *terraform plan*
-3. *terraform apply -auto-approve*
-4. *terraform destroy -auto-approve* 
+## 🎯 Objective
 
-☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+- ✅ Detect **known face**
+- ✅ Trigger **Terraform script** for AWS resources
+- ✅ View infra in **AWS Console** ☁️
+- ✅ All actions automated end-to-end! 🤖✨
 
+---
+
+## 🧠 Tech Used
+
+- 🐍 Python (face detection logic)
+- 🤳 OpenCV + face_recognition (known face match)
+- 🏗️ Terraform (AWS infrastructure as code)
+- ☁️ AWS (EC2, S3, etc.)
+
+---
+
+## ⚙️ Workflow
+
+1. 📸 Capture face → match with known face
+2. 🤖 If match ✅ → Run Terraform script
+3. ☁️ AWS Infra created (visible in Console)
+4. ❌ No match? → No infra is created
+
+---
+
+## 📂 Project Structure
 
