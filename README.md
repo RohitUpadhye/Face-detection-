@@ -17,7 +17,7 @@ If your face is detected ✅, the infrastructure is deployed 🚀 and visible in
 ## 🧠 Tech Used
 
 - 🐍 Python (face detection logic)
-- 🤳 OpenCV + face_recognition (known face match)
+- 🤳 OpenCV (known face match)
 - 🏗️ Terraform (AWS infrastructure as code)
 - ☁️ AWS (EC2, S3, etc.)
 
@@ -32,5 +32,5 @@ If your face is detected ✅, the infrastructure is deployed 🚀 and visible in
 
 ---
 
-## 📂 Project Structure
+
 
