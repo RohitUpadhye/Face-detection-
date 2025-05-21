@@ -30,5 +30,5 @@ If a known face is detected ✅, it triggers a **Terraform** script to spin up r
 
 ---
 
-## 📂 Project Structure
+
 
